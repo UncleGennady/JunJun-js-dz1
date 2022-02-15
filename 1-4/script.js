@@ -3,12 +3,46 @@ let op1 = +prompt('число1', '');
 let operation = prompt('Выбери действие +, -, *, /', '');
 let op2 = +prompt('число2', '');
 console.log(operation);
+
+function add() {
+    let action = op1 + op2
+    return console.log(`сумма ${action}`);
+
+};
+
+function sub() {
+    let action = op1 - op2
+    return console.log(`вычетание ${action}`);
+
+};
+
+function mult() {
+    let action = op1 * op2
+    return console.log(`умножение ${action}`);
+
+};
+
+function div() {
+    let action = op1 / op2
+    return console.log(`деление ${action}`);
+
+};
 if (operation == '+') {
-    alert(op1 + op2);
-} else if (operation == '-') {
-    alert(op1 - op2);
-} else if (operation == '*') {
-    alert(op1 * op2);
-} else if (operation == '/') {
-    alert(op1 / op2);
-}
+    add()
+} else if (operation === '-') {
+    sub()
+} else if (operation === '*') {
+    mult()
+} else if (operation === '/') {
+    div()
+};
+
+// if (operation == '+') {
+//     alert(op1 + op2);
+// } else if (operation == '-') {
+//     alert(op1 - op2);
+// } else if (operation == '*') {
+//     alert(op1 * op2);
+// } else if (operation == '/') {
+//     alert(op1 / op2);
+// }
