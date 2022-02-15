@@ -1,6 +1,6 @@
 'use strict';
-let op1 = +prompt('число1');
-let op2 = +prompt('число2');
+let op1 = +prompt('число1', '');
+let op2 = +prompt('число2', '');
 
 function add() {
     let action = op1 + op2
