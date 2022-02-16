@@ -5,26 +5,22 @@ let op2 = +prompt('число2', '');
 console.log(operation);
 
 function add() {
-    let action = op1 + op2
-    return console.log(`сумма ${action}`);
+    return console.log(`сумма ${op1 + op2}`);
 
 };
 
 function sub() {
-    let action = op1 - op2
-    return console.log(`вычетание ${action}`);
+    return console.log(`вычетание ${op1 - op2}`);
 
 };
 
 function mult() {
-    let action = op1 * op2
-    return console.log(`умножение ${action}`);
+    return console.log(`умножение ${op1 * op2}`);
 
 };
 
 function div() {
-    let action = op1 / op2
-    return console.log(`деление ${action}`);
+    return console.log(`деление ${op1 / op2}`);
 
 };
 if (operation == '+') {
@@ -36,13 +32,3 @@ if (operation == '+') {
 } else if (operation === '/') {
     div()
 };
-
-// if (operation == '+') {
-//     alert(op1 + op2);
-// } else if (operation == '-') {
-//     alert(op1 - op2);
-// } else if (operation == '*') {
-//     alert(op1 * op2);
-// } else if (operation == '/') {
-//     alert(op1 / op2);
-// }
