@@ -1,7 +1,7 @@
 'use strict';
-let op1 = +prompt('число1', '');
-let operation = prompt('Выбери действие +, -, *, /', '');
-let op2 = +prompt('число2', '');
+const op1 = +prompt('число1', '');
+const operation = prompt('Выбери действие +, -, *, /', '');
+const op2 = +prompt('число2', '');
 console.log(operation);
 
 function add() {

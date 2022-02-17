@@ -1,6 +1,6 @@
 'use strict';
-let op1 = +prompt('число1', '');
-let op2 = +prompt('число2', '');
+const op1 = +prompt('число1', '');
+const op2 = +prompt('число2', '');
 
 function add() {
     return console.log(`сумма ${op1 + op2}`);
